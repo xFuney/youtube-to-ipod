@@ -1,0 +1,14 @@
+{
+  "name": "node_ipod_conv",
+  "version": "1.0.0",
+  "description": "Converts a batch of YouTube videos into an iPod-compatible format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node."
+  },
+  "author": "xFuney",
+  "license": "ISC",
+  "devDependencies": {
+    "ytdl-core": "^2.1.1"
+  }
+}
