@@ -21,3 +21,19 @@ Currently, the program only reads from one JSON file and takes no arguments ("te
 }
 ```
 You can add as many links as you like to the batch links. Be aware that all videos are downloaded asyncronously.
+
+# Build Instructions
+There is not much building to do here, just make sure you have the prereqesites and run the program with:
+```
+node index.js
+```
+
+If this fails, make sure FFMPEG is placed correctly - only place the contents of the **bin/** folder in the FFMPEG binaries into the root of this directory. DO NOT change the name, unless you wish to change stuff in the source code.
+
+# Run Instructions
+Run the program with:
+```
+node index.js
+```
+
+You would usually be able to pass an argument with a JSON file, but this is in development and this isn't a priority right now. Just make sure your JSON file is formatted correctly, use the one above as an example.
